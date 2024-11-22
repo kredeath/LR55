@@ -1,0 +1,68 @@
+/* Клас для шапки сайту */
+.header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header .title {
+    font-size: 2.5em;
+    color: #333;
+    margin: 0;
+}
+
+.header .logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Клас для навігації */
+.navigation {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+/* Клас для секцій */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.section ul {
+    list-style: square;
+    padding-left: 20px;
+}
